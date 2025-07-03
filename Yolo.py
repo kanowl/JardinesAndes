@@ -1,6 +1,8 @@
 import cv2
 from ultralytics import YOLO
 
+# instalar ultralyticts --- pip install ultralytics
+# instalar cv2 --- pip install opencv-python
 # Load the model
 yolo = YOLO('yolov8s.pt')
 
